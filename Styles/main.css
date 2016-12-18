@@ -1,0 +1,87 @@
+body{
+	background-color: #232339;
+	margin: 0px;
+	padding: 0px;
+}
+nav ul{
+	position: fixed;
+		top: -20px;
+		right: 0px;
+}
+nav li{
+	display: inline-block;
+	color: black;
+	padding: 20px;
+	font-family: 'Oswald', sans-serif;
+	margin: 0px;
+}
+nav li:hover{
+	background-color: white;
+}
+nav li a{
+	text-decoration: none;
+	color: black;
+}
+#VGN{
+	color: White;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 30px;
+	margin-top: 10px;
+	font-family: 'Oswald', sans-serif;
+
+}
+.mainNav{
+	background-color: grey;
+	height: 55px;
+	width: 100vw;
+	position: fixed;
+		top: 0px;
+}
+#twitterContainer{
+	background-color: red;
+	height: 600px;
+	width: 600px;
+	margin-left: 450px;
+	margin-top: 100px;
+}
+.twitterBall{
+	height: 180px;
+	width: 180px;
+	background-color: white;
+	border-radius: 50em;
+}
+#ball2{
+	background-color: orange;
+	margin-left: 170px;
+	margin-top: -60px;
+}
+#ball3{
+	background-color: green;
+	margin-top: -60px;
+}
+#ball4{
+	background-color: blue;
+	margin-left: 350px;
+	margin-top: -420px;
+}
+#ball5{
+	background-color: yellow;
+	margin-top: 30px;
+	margin-left: 360px;
+}
+#ball6{
+	background-color: pink;
+	margin-top: -30px;
+	margin-left: 190px;
+}
+.imgContainer{
+	height: 70px;
+	width: 70px;
+	background-color: coral;
+	border-radius: 50em;
+	margin-left: 55px;
+}
+.tweetContent{
+	margin-left: 40px;
+}

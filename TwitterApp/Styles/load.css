@@ -1,0 +1,22 @@
+#loadScreen{
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+}
+#loadContainer{
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	text-decoration: none;
+	color: white;
+	position: fixed;
+		bottom: 400px;
+		left: 450px;
+
+}
