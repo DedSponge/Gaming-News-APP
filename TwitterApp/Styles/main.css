@@ -85,3 +85,21 @@ nav li a{
 .tweetContent{
 	margin-left: 40px;
 }
+/*Nintendo*/
+.nintendo{
+	height: 100vh;
+	width: 100vw;
+	background-color: red;
+}
+/*Microsoft*/
+.microsoft{
+	height: 100vh;
+	width: 100vw;
+	background-color: green;
+}
+/*Playsttion*/
+.playstation{
+	height: 100vh;
+	width: 100vw;
+	background-color: blue;
+}

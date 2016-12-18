@@ -8,41 +8,23 @@
 	<script src="./Scripts/angular.min.js"></script>
 	<script src="./Scripts/angular-route.js"></script>
 </head>
-<body>
+<body ng-app="twitterApp">
 	<nav class="mainNav">
 		<h1 id="VGN">VGN Today</h1>
 			<ul class="menu">
-				<li class="menuItems"><a href="">Nintendo</a></li>
-				<li class="menuItems"><a href="">Microsoft</a></li>
-				<li class="menuItems"><a href="">Playstation</a></li>
+				<li class="menuItems"><a href="#/">Home</a></li>
+				<li class="menuItems"><a href="#nintendo">Nintendo</a></li>
+				<li class="menuItems"><a href="#microsoft">Microsoft</a></li>
+				<li class="menuItems"><a href="#playstation">Playstation</a></li>
 			</ul>
 	</nav>
-	<div id="twitterContainer">
-		<div class="twitterBall" id="ball1">
-			<div class="imgContainer"></div>
-			<p class="tweetContent">...</p>
+	<div id="viewContainer">
+		<div ng-view="">
+			
 		</div>
-		<div class="twitterBall" id="ball2">
-			<div class="imgContainer"></div>
-			<p class="tweetContent">...</p>
-		</div>
-		<div class="twitterBall" id="ball3">
-			<div class="imgContainer"></div>
-			<p class="tweetContent">...</p>
-		</div>
-		<div class="twitterBall" id="ball4">
-			<div class="imgContainer"></div>
-			<p class="tweetContent">...</p>
-		</div>
-		<div class="twitterBall" id="ball5">
-			<div class="imgContainer"></div>
-			<p class="tweetContent">...</p>
-		</div>
-		<div class="twitterBall" id="ball6">
-			<div class="imgContainer"></div>
-			<p class="tweetContent">...</p>
-		</div>
+		
 	</div>
+	
 		<script src="./Scripts/jquery.js"></script>
 		<script src="./Scripts/main.js"></script>
 </body>
