@@ -1,5 +1,5 @@
 body{
-	background-color: #232339;
+	background-color: #009ac7;
 	margin: 0px;
 	padding: 0px;
 }
@@ -16,11 +16,30 @@ nav li{
 	margin: 0px;
 }
 nav li:hover{
-	background-color: white;
+	background-color: #009ac7;
 }
 nav li a{
 	text-decoration: none;
-	color: black;
+	color: white;
+}
+.tweetContainer{
+	height: 180px;
+	width: 100vw;
+	background-color: #009ac7;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+.tweetAuthor{
+	text-align: center;
+	color: #1B1D1F;
+	font-family: 'Oswald', sans-serif;
+}
+
+.viewHeader{
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 60px;
+	text-align: center;
 }
 #VGN{
 	color: White;
@@ -32,78 +51,44 @@ nav li a{
 
 }
 .mainNav{
-	background-color: grey;
+	background-color:  #8b8b8b;
 	height: 55px;
 	width: 100vw;
 	position: fixed;
 		top: 0px;
 }
-#twitterContainer{
-	background-color: red;
-	height: 600px;
-	width: 600px;
-	margin-left: 450px;
-	margin-top: 100px;
-}
-.twitterBall{
-	height: 180px;
-	width: 180px;
-	background-color: white;
-	border-radius: 50em;
-}
-#ball2{
-	background-color: orange;
-	margin-left: 170px;
-	margin-top: -60px;
-}
-#ball3{
-	background-color: green;
-	margin-top: -60px;
-}
-#ball4{
-	background-color: blue;
-	margin-left: 350px;
-	margin-top: -420px;
-}
-#ball5{
-	background-color: yellow;
-	margin-top: 30px;
-	margin-left: 360px;
-}
-#ball6{
-	background-color: pink;
-	margin-top: -30px;
-	margin-left: 190px;
-}
-.imgContainer{
-	height: 70px;
-	width: 70px;
-	background-color: coral;
-	border-radius: 50em;
-	margin-left: 55px;
-}
+
 .tweetContent{
 	margin-left: 40px;
+	color: black;
+}
+.tweetText{
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;
+}
+.tweetImg{
+	border-radius: 50em;
+	margin-left: 48%;
+	margin-top: 5px;
 }
 /*Nintendo*/
 .nintendo{
 	height: 100vh;
 	width: 100vw;
-	background-color: red;
 }
-h3{
+#nintendoHeader{
 	color: white;
-	
 }
 /*Microsoft*/
 .microsoft{
 	height: 100vh;
 	width: 100vw;
-	background-color: green;
+
 }
 /*Playsttion*/
 .playstation{
 	height: 100vh;
 	width: 100vw;
-	background-color: blue;
 }

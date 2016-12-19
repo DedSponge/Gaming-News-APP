@@ -1,9 +1,6 @@
 var app = angular.module("twitterApp", ["ngRoute", "ngTweets"]);
 app.config(function($routeProvider) {
     $routeProvider
-    .when("/", {
-        templateUrl : "./Partials/main.html"
-    })
     .when("/nintendo", {
         templateUrl : "./Partials/Nintendo.html",
         controller:"nintendoCTRL"
@@ -35,11 +32,29 @@ app.controller("nintendoCTRL",function($scope, $http, tweets){
     //         console.log(recipeJSON.data.hits[0].recipe);
     //     });
     });
-
+app.controller("mainCTRL",function($scope, $http, tweets){
+    tweets.get({
+        widgetId:'810680871162413060'
+    }).success(function(data){
+        $scope.feed = data;
+        console.log(data);
+    });
+});
 app.controller("microsoftCTRL",function($scope, $http, tweets){
-
+    tweets.get({
+        widgetId:'810708135958761473'
+    }).success(function(data){
+        $scope.feed = data;
+        console.log(data);
+    });
 });
 
 app.controller("playstationCTRL",function($scope, $http, tweets){
+tweets.get({
+        widgetId:'810710535431917568'
+    }).success(function(data){
+        $scope.feed = data;
+        console.log(data);
+    });
 
 });

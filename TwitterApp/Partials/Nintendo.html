@@ -4,14 +4,18 @@
 	<meta charset="UTF-8">
 	<title>VGN Nintendo</title>
 	<link rel="stylesheet" href="Styles/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 </head>
 <body>
-	<h1>nintendo</h1>
+	<h1 class="viewHeader" id="nintendoHeader">Nintendo</h1>
 	<div class="nintendo">
 		<div ng-repeat="tweet in feed.tweets">
-			<h3>{{tweet.text}}</h3>
-			<h6>{{tweet.author.fullName}}</h6>
+			<div class="tweetContainer">
+				<img class="tweetImg" src="{{tweet.author.avatar}}" alt="" height="50px" width="50px">
+				<h5 class=tweetText>{{tweet.text}}</h3>
+				<h6 class="tweetAuthor">{{tweet.author.fullName}}</h6>
+			</div>
 		</div>
 	</div>
 	

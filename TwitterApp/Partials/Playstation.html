@@ -6,8 +6,16 @@
 	<link rel="stylesheet" href="Styles/main.css">
 </head>
 <body>
-	<h1>playstation</h1>
-	<div class="playstation"></div>
+	<h1 class="viewHeader" id="nintendoHeader">Playstation</h1>
+		<div class="nintendo">
+			<div ng-repeat="tweet in feed.tweets">
+				<div class="tweetContainer">
+					<img class="tweetImg" src="{{tweet.author.avatar}}" alt="" height="50px" width="50px">
+					<h5 class=tweetText>{{tweet.text}}</h3>
+					<h6 class="tweetAuthor">{{tweet.author.fullName}}</h6>
+				</div>
+			</div>
+		</div>
 	
 </body>
 </html>
