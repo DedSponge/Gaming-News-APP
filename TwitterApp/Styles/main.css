@@ -91,6 +91,10 @@ nav li a{
 	width: 100vw;
 	background-color: red;
 }
+h3{
+	color: white;
+	
+}
 /*Microsoft*/
 .microsoft{
 	height: 100vh;
